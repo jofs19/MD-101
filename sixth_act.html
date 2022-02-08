@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MD-101</title>
+    <link rel = "icon" href = "/images/Android-Logo-Transparent-Background.png">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+    <style>
+        p {
+          /* Units can be in px, em, or percentage */
+          letter-spacing: 1px;
+          word-spacing: 1px;
+          line-height: 150%;
+        }
+
+        h1{
+            padding: 20px;
+
+        }
+
+        header{
+            border: 5px solid rgb(0, 0, 0);
+        }
+
+
+        footer {
+        text-align:center;
+        }
+        footer a {
+        color: #73748b;
+        font-size: 20px;
+        padding: 10px;
+        transition: all .5s ease;
+        }
+
+        footer a:hover {
+            color: white;
+        }
+
+        /*--------------------------------------------------------------
+        # Frequently Asked Questions
+        --------------------------------------------------------------*/
+        .faq .faq-list {
+        padding: 2em;
+        list-style:circle;
+
+        }
+
+        .faq .faq-list li {
+        border-bottom: 1px solid #eee;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        }
+
+        .faq .faq-list a {
+        display: block;
+        position: relative;
+        font-family: #7cc576;
+        font-size: 15px;
+        line-height: 22px;
+        font-weight: 400;
+        padding-right: 25px;
+        }
+
+        .faq .faq-list i {
+        font-size: 20px;
+        position: absolute;
+        right: 0;
+        top: 0;
+        }
+
+        .faq .faq-list p {
+        margin-bottom: 0;
+        padding: 10px 0 0 0;
+        }
+
+
+        .faq .faq-list a.collapsed {
+        color: #343a40;
+        }
+
+        .faq .faq-list a.collapsed:hover {
+        color: #067d8d;
+        }
+
+        section{
+            margin: 1em;
+        }
+
+
+        </style>
+
+</head>
+<body>
+    <!-- Responsive navbar-->
+   
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top ">   
+
+      
+        <div class="container">  
+           
+            <a href="secondPG.html"><img src="/images/Android-Logo-Transparent-Background.png" class="navbar-brand" style="width: 150px;" ></a>
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link active text-light" href="#" style="font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;"><b>MD-101</b></a></li>
+        
+            </ul>
+        
+        </div>
+   
+    </nav>
+
+    <header class="py-5 mb-4 text-dark" style="background-image: url('https://th.bing.com/th/id/OIP.l5JpH6-U0yXve1nf5A7aswHaEK?w=280&h=180&c=7&o=5&pid=1.7'); background-size: cover;">
+        <div class="container">
+            <div class="text-center my-5">
+                <h1 class="fw-bolder" style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">MOBILE APPLICATION PRESENTATION</h1>
+                <p class="lead mb-0"><b><u>III-BSIT-A</u></b></p>
+            </div>
+        </div>
+
+    </header>
+
+    <section class="faq" style="background-color:lightgray;">
+        <div class="container">
+  
+          <div class="section-title"  id="FAQ">
+              
+              <br>
+            <h2 style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;"><u>CHANGE FONT SIZE</u></h2>
+          </div>
+  
+          <ul class="faq-list">
+  
+            <li>
+              <a data-toggle="collapse" class="collapsed" href="#faq1">Output</a>
+              <div id="faq1" class="collapse" data-parent=".faq-list">
+                <p>
+                    <img src="/media/text-size.gif" height="500" width="250">                </p>
+              </div>
+            </li>
+  
+            <li>
+              <a data-toggle="collapse" href="#faq2" class="collapsed">Source Code</a>
+              <div id="faq2" class="collapse" data-parent=".faq-list">
+                <p>Open PDF file:<a href="/media/Task-4(Change_FontSize).pdf" target="_blank">CHANGE_FONT-SIZE.pdf</a>          
+                </p>
+              </div>
+            </li>
+  
+            <li>
+              <a data-toggle="collapse" href="#faq3" class="collapsed">Code Explanation</a>
+              <div id="faq3" class="collapse" data-parent=".faq-list">
+                <p>
+                  This application has the option to change the font size, either increasing or decreasing it. By clicking the (+) button, the text size can be increased by five points. The (-) button reduces the text size by 5 points. The text can be resized by utilizing the (.setTextSize()) function, which is dependent on the size of the value that is passed into the function.
+              
+                </p>
+              </div>
+            </li>
+  
+          </ul>
+  
+        </div>
+      </section><!-- End Frequently Asked Questions Section -->
+      
+      
+
+     <!-- Footer-->
+     <footer class="py-5 bg-dark">
+        
+
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
+
+  <a href="#"><i class="fa fa-facebook"></i></a>
+  <a href="#"><i class="fa fa-twitter"></i></a>
+  <a href="#"><i class="fa fa-linkedin"></i></a>
+  <a href="#"><i class="fa fa-google-plus"></i></a>
+  <a href="#"><i class="fa fa-skype"></i></a>
+  <div class="px- px-lg-5 text-center text-secondary"><p>Copyright &copy; JOFS 2021</p></div>
+
+
+    </footer>
+    
+</body>
+</html>
